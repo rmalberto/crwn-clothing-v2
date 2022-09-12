@@ -23,7 +23,7 @@ const SignInForm = () => {
 
     const signInWithGoogle = async () => {
         const { user } = await createAuthUserWithEmailAndPassword(email, password);
-        console.log(user);
+        await createAuthUserWithEmailAndPassword(user);
     };
 
     const handleSubmit = async (event) => {
@@ -38,12 +38,7 @@ const SignInForm = () => {
             // await createUserDocumentFromAuth(user, { displayName });
             resetFormFields();
         } catch (error) {
-            //console.log('Error1', error);
-            if(error.code === 'auth/email-already-in-use'){
-                alert('Cannot create user, email already in use');
-            } else {
-                console.log('user creation encountered an error', error);
-            }
+            console.log(error);
         }
     };
 
