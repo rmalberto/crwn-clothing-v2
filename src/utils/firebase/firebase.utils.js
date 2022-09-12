@@ -74,14 +74,7 @@ export const createAuthUserWithEmailAndPassword = async (email, password) => {
 };
 
 export const signInAuthUserWithEmailAndPassword = async (email, password) => {
-<<<<<<< HEAD
-  if(!email || !password) return;
-
-  return await signInWithEmailAndPassword(auth, email, password);  
-};
-=======
   if (!email || !password) return;
 
   return await signInWithEmailAndPassword(auth, email, password);
 };
->>>>>>> 03311ba859127deee43dad5f5b598dca31507bb4
