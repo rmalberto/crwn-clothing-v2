@@ -5,11 +5,7 @@ import {
   signInWithPopup,
   GoogleAuthProvider,
   createUserWithEmailAndPassword,
-<<<<<<< HEAD
-  signInWithEmailAndPassword
-=======
   signInWithEmailAndPassword,
->>>>>>> 03311ba859127deee43dad5f5b598dca31507bb4
 } from 'firebase/auth';
 import { getFirestore, doc, getDoc, setDoc } from 'firebase/firestore';
 
