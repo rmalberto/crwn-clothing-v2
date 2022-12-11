@@ -24,9 +24,9 @@ import App from "./App";
 import { UserProvider } from "./contexts/user.context";
 import { ProductsProvider } from "./contexts/products.context";
 
-import "./index.scss";
+import './index.scss';
 
-const rootElement = document.getElementById("root");
+const rootElement = document.getElementById('root');
 
 const container = document.getElementById('root');
 const root = createRoot(container);
