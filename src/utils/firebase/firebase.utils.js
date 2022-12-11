@@ -11,6 +11,7 @@ import {
 } from 'firebase/auth';
 import { getFirestore, doc, getDoc, setDoc } from 'firebase/firestore';
 
+// arodarte firebase configuration
 const firebaseConfig = {
   apiKey: "AIzaSyAunL2ofsa-3w7wbql_knNZQJRTYP5vUxc",
   authDomain: "crwn-clothing-db-b7475.firebaseapp.com",
