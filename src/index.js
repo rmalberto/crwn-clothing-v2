@@ -26,7 +26,7 @@ import { ProductsProvider } from "./contexts/products.context";
 
 import './index.scss';
 
-const rootElement = document.getElementById('root');
+//const rootElement = document.getElementById('root');
 
 const container = document.getElementById('root');
 const root = createRoot(container);
